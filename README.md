@@ -10,6 +10,7 @@ Instructions:
 1. Rename the Home_Sales_starter_code.ipynb file as Home_Sales.ipynb.
 2. Import the necessary PySpark SQL functions for this assignment.
 3. Read the home_sales_revised.csv data in the starter code into a Spark DataFrame.
+
 ![Screenshot 2024-05-11 at 1 03 03 PM](https://github.com/apkaur32/Home_Sales/assets/150749167/e494d3c0-c57c-4119-8429-aad114fcc69f)
 
 4. Create a temporary table called home_sales.
@@ -31,11 +32,13 @@ d) What is the average price of a home per "view" rating having an average home 
 7. Cache your temporary table home_sales.
 8. Check if your temporary table is cached.
 9. Using the cached data, run the last query  from step 6. Determine the runtime and compare it to uncached runtime.
+
 ![Screenshot 2024-05-11 at 1 12 12 PM](https://github.com/apkaur32/Home_Sales/assets/150749167/bd85ea6c-5610-44ec-bd25-a67fd1ea6e01)
 
 10. Partition by the "date_built" field on the formatted parquet home sales data.
 11. Create a temporary table for the parquet data.
 12. Run the last query t from step 6 again. Determine the runtime and compare it to uncached runtime.
+
 ![Screenshot 2024-05-11 at 1 12 37 PM](https://github.com/apkaur32/Home_Sales/assets/150749167/96072ede-e475-4c2a-bc07-c83040b826af)
 
 13. Uncache the home_sales temporary table.
@@ -43,3 +46,7 @@ d) What is the average price of a home per "view" rating having an average home 
 15. Download your Home_Sales.ipynb file and upload it into your "Home_Sales" GitHub repository.
 
 `Analysis:` 
+The results from initial query step 6 was 0.62 seconds, followed by cached table at 0.47 seconds, and then partitioning runtime at 0.94 seconds. This suggests that the uncached runtime was much lower than the partioned runtime of the same query. 
+
+`Resources:`
+This challenge was completed using class exercises. 

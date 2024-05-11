@@ -12,9 +12,9 @@ Instructions:
 3. Read the home_sales_revised.csv data in the starter code into a Spark DataFrame.
 4. Create a temporary table called home_sales.
 5. Answer the following questions using SparkSQL and round off your answer to two decimal places:\
-a) What is the average price for a four-bedroom house sold for each year? 
-b) What is the average price of a home for each year the home was built, that has three bedrooms and three bathrooms? 
-c) What is the average price of a home for each year the home was built, that has three bedrooms, three bathrooms, two floors, and is greater than or equal to 2,000 square feet? 
+a) What is the average price for a four-bedroom house sold for each year?\ 
+b) What is the average price of a home for each year the home was built, that has three bedrooms and three bathrooms?\ 
+c) What is the average price of a home for each year the home was built, that has three bedrooms, three bathrooms, two floors, and is greater than or equal to 2,000 square feet?\ 
 d) What is the average price of a home per "view" rating having an average home price greater than or equal to $350,000? Determine the run time for this query.
 
 6. Cache your temporary table home_sales.

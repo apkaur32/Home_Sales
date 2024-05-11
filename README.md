@@ -13,8 +13,8 @@ Instructions:
 ![Screenshot 2024-05-11 at 1 03 03 PM](https://github.com/apkaur32/Home_Sales/assets/150749167/e494d3c0-c57c-4119-8429-aad114fcc69f)
 
 4. Create a temporary table called home_sales.
-5. Answer the following questions using SparkSQL and round off your answer to two decimal places:\
-a) What is the average price for a four-bedroom house sold for each year?:\ 
+5. Answer the following questions using SparkSQL and round off your answer to two decimal places\
+a) What is the average price for a four-bedroom house sold for each year? 
 ![Screenshot 2024-05-11 at 1 03 41 PM](https://github.com/apkaur32/Home_Sales/assets/150749167/d17f0b38-f803-472f-bc7c-b71e57d5f8ac)
 
 b) What is the average price of a home for each year the home was built, that has three bedrooms and three bathrooms?  

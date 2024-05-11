@@ -1,7 +1,7 @@
 # Home_Sales
 Challenge#22 HW
 
-![Screenshot 2024-05-11 at 12 53 24 PM](https://github.com/apkaur32/Home_Sales/assets/150749167/07ebd48c-30f8-49ee-8f25-c98b9c1660ee)
+![Screenshot 2024-05-11 at 1 14 06 PM](https://github.com/apkaur32/Home_Sales/assets/150749167/b9f5fe84-0935-46fa-95b8-a63a1c955291)
 
 Overview: \
 In this challenge, you'll use your knowledge of SparkSQL to determine key metrics about home sales data. Then you'll use Spark to create temporary views, partition the data, cache and uncache a temporary table, and verify that the table has been uncached.
@@ -15,7 +15,8 @@ Instructions:
 4. Create a temporary table called home_sales.
 5. Answer the following questions using SparkSQL and round off your answer to two decimal places:\
 
-a) What is the average price for a four-bedroom house sold for each year? 
+a) What is the average price for a four-bedroom house sold for each year?
+
 ![Screenshot 2024-05-11 at 1 03 41 PM](https://github.com/apkaur32/Home_Sales/assets/150749167/d17f0b38-f803-472f-bc7c-b71e57d5f8ac)
 
 b) What is the average price of a home for each year the home was built, that has three bedrooms and three bathrooms?  
@@ -41,4 +42,4 @@ d) What is the average price of a home per "view" rating having an average home 
 14. Verify that the home_sales temporary table is uncached using PySpark.
 15. Download your Home_Sales.ipynb file and upload it into your "Home_Sales" GitHub repository.
 
-Analysis: 
+`Analysis:` 
